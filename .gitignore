@@ -1,0 +1,44 @@
+# Gradle
+.gradle/
+**/build/
+!**/src/**/build/
+!**/src/**/build/**
+
+# Java
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse and Spring Tool Suite
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+.apt_generated/
+bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Visual Studio Code
+.vscode/
+
+# Logs and local environment files
+*.log
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
