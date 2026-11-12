@@ -34,4 +34,12 @@ public class UserRepository {
                 .filter(user -> user.getId().equals(id))
                 .findFirst();
     }
+
+    public void insert(User user) {
+        users.add(user);
+    }
+
+    public void deleteById(UUID id) {
+        users.removeIf(user -> user.getId().equals(id));
+    }
 }
